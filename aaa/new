@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<h2>Head 中的 JavaScript</h2>
+
+<p ID="who">这个是一句话简介</p>
+
+<button onclick="myFunction()">查看详情</button>
+
+<script>
+function myFunction(){
+         document.getElementByID("who").innerHTML="这个人的详细介绍是什么什么没什么";}
+
+</script>
+
+</body>
+</html>
